@@ -103,8 +103,6 @@ export const TranslateBox = () => {
           </div>
         </div>
       </div>
-
-      {/* <Animation /> */}
     </>
   );
 };
