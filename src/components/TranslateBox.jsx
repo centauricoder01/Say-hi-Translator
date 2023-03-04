@@ -54,7 +54,7 @@ export const TranslateBox = () => {
   useEffect(() => {
     let timerID = setTimeout(() => {
       handleGetRequest();
-    }, 1000);
+    }, 500);
 
     return () => {
       clearTimeout(timerID);
@@ -104,11 +104,7 @@ export const TranslateBox = () => {
         </div>
       </div>
 
-      <Animation />
-
-      <div className="tagLine">
-        <p id="Repeatagain">Made with ❤️ by Rajendra Patel</p>
-      </div>
+      {/* <Animation /> */}
     </>
   );
 };
